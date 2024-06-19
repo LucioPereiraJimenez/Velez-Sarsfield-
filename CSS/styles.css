@@ -61,7 +61,13 @@ section{
     margin: 25px;
 }
 
- 
+ .imagen{
+    width: 100%;
+ }
+
+
+
+
 
 
 .contenedor_limite{
@@ -74,7 +80,7 @@ text-align: center;
 }
 
 .contenedor_limite_2{
-    width: 100%;
+    
     background-color: blueviolet;
     padding: 10px;
     max-width: 1000px;
@@ -84,7 +90,7 @@ text-align: center;
     background-color: blanchedalmond;
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    min-height: 500px;
     align-items: center;
     flex-wrap: wrap;
 }
